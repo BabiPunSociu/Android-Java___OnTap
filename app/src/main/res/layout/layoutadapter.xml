@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80sp"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/tvBienSo"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:text="biển số xe"
+            />
+        <TextView
+            android:id="@+id/tvQuangDuong"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:text="quãng đường"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTongTien"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="10000"
+        />
+</LinearLayout>
